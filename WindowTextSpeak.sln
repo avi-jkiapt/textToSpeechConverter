@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowTextSpeak", "WindowTextSpeak\WindowTextSpeak.csproj", "{9067B465-A7EE-4D12-A28B-03F6296405EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9067B465-A7EE-4D12-A28B-03F6296405EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9067B465-A7EE-4D12-A28B-03F6296405EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9067B465-A7EE-4D12-A28B-03F6296405EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9067B465-A7EE-4D12-A28B-03F6296405EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E11B047-3A70-4AA2-ACE6-2FB5F0D24B25}
+	EndGlobalSection
+EndGlobal
