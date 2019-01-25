@@ -8,3 +8,7 @@ C:\Users\Avinash\source\repos\WindowTextSpeak\WindowTextSpeak\obj\Debug\WindowTe
 C:\Users\Avinash\source\repos\WindowTextSpeak\WindowTextSpeak\obj\Debug\WindowTextSpeak.csproj.CoreCompileInputs.cache
 C:\Users\Avinash\source\repos\WindowTextSpeak\WindowTextSpeak\obj\Debug\WindowTextSpeak.exe
 C:\Users\Avinash\source\repos\WindowTextSpeak\WindowTextSpeak\obj\Debug\WindowTextSpeak.pdb
+C:\Users\Avinash\source\repos\WindowTextSpeak\WindowTextSpeak\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Avinash\source\repos\WindowTextSpeak\WindowTextSpeak\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Avinash\source\repos\WindowTextSpeak\WindowTextSpeak\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Avinash\source\repos\WindowTextSpeak\WindowTextSpeak\obj\Debug\WindowTextSpeak.csproj.CopyComplete

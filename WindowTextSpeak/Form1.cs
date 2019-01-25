@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Speech.Synthesis;
 using System.IO;
+using HtmlAgilityPack;
 
 namespace WindowTextSpeak
 {
@@ -96,5 +97,43 @@ namespace WindowTextSpeak
         }
 
        
+
+        private void button2_Click_2(object sender, EventArgs e)
+        {
+            string url = textBoxUrl.Text;
+            richTextBox1.Text = "";
+            if (speechSyn != null)
+            {
+                speechSyn.Dispose();
+                buttonPause.Enabled = false;
+                buttonResume.Enabled = false;
+                buttonStop.Enabled = false;
+                richTextBox1.Text = "";
+                label1.Text = "IDLE";
+            }
+            string ScrapText = "";
+            try
+            {
+                var docs = new HtmlWeb().Load(url);
+                var para = docs.DocumentNode.SelectNodes("//p").ToList();
+                if(para != null)
+                {
+                    foreach(var i in para)
+                    {
+                        ScrapText += i.InnerText;
+                    }
+                }
+                richTextBox1.Text = ScrapText;
+                MessageBox.Show("Please Click to Speak.");
+                textBoxUrl.Text = "";
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Sorry there is error.");
+            }
+
+           
+        }
     }
 }
